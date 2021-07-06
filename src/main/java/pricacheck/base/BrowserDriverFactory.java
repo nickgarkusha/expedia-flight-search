@@ -17,7 +17,7 @@ public class BrowserDriverFactory {
 	public WebDriver createChromeDriver() {
 		// Create driver
 		log.info("Create driver");
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		driver.set(new ChromeDriver());
 		return driver.get();
 	}

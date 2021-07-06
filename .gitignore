@@ -4,3 +4,7 @@
 /.project
 /debug.log
 /bin/
+
+# IntelliJ IDEA files
+.idea/*
+*.iml
